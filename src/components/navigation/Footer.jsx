@@ -92,18 +92,28 @@ export default function Footer() {
             </h4>
             <ul style={{ display: 'flex', flexDirection: 'column', gap: 9 }}>
               <li>
-                <a className="ftr-link" href={supportUrl} target="_blank" rel="noopener noreferrer">
-                  Поддержка
-                </a>
-              </li>
-              <li>
                 <a className="ftr-link" href="/#pricing">
                   Тарифы
                 </a>
               </li>
               <li>
+                <a className="ftr-link" href="/#steps">
+                  Подключение
+                </a>
+              </li>
+              <li>
+                <a className="ftr-link" href="/#features">
+                  Возможности
+                </a>
+              </li>
+              <li>
                 <a className="ftr-link" href="/#faq">
                   FAQ
+                </a>
+              </li>
+              <li>
+                <a className="ftr-link" href={supportUrl} target="_blank" rel="noopener noreferrer">
+                  Поддержка
                 </a>
               </li>
             </ul>

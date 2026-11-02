@@ -26,18 +26,18 @@ function ShieldIcon() {
 const FEATURES = [
   {
     icon: LightningIcon,
-    title: 'Полная скорость',
-    text: '10 Гбит каналы без ограничений. YouTube 4K, стриминг, игры — без буферизации.',
+    title: 'Без потолка по скорости',
+    text: 'Магистрали 10 Гбит — 4K-видео, стримы и онлайн-игры идут без подтормаживаний.',
   },
   {
     icon: PhoneIcon,
-    title: 'iOS, Android, Windows',
-    text: 'Один аккаунт на всех устройствах. Приложение Happ бесплатно.',
+    title: 'Все основные платформы',
+    text: 'Единый доступ на телефоне, планшете и ПК. Клиент Happ скачивается бесплатно.',
   },
   {
     icon: ShieldIcon,
-    title: 'Стабильность 24/7',
-    text: 'Мониторинг инфраструктуры круглосуточно. Поддержка — всегда рядом.',
+    title: 'Работает круглосуточно',
+    text: 'Серверы под постоянным контролем. Если что-то пойдёт не так — поддержка на связи.',
   },
 ];
 
@@ -47,9 +47,9 @@ export default function FeaturesSection() {
       <div className="section-inner">
         <p className="kicker">Возможности</p>
         <h2 className="h2" style={{ marginBottom: 48, maxWidth: 520 }}>
-          Просто работает.
+          Всё нужное —
           <br />
-          Без лишнего.
+          без лишних шагов.
         </h2>
         <div className="three">
           {FEATURES.map((item) => (

@@ -14,8 +14,8 @@ export default function PricingSection() {
       <div style={{ maxWidth: 760, margin: '0 auto' }}>
         <div style={{ textAlign: 'center', marginBottom: 44 }}>
           <p className="kicker">Тарифы</p>
-          <h2 className="h2">Начните бесплатно</h2>
-          <p style={{ fontSize: 16, color: '#5A5A6A', marginTop: 10 }}>1 день бесплатно</p>
+          <h2 className="h2">Сначала — пробный день</h2>
+          <p style={{ fontSize: 16, color: '#5A5A6A', marginTop: 10 }}>24 часа без оплаты</p>
         </div>
         <div style={{ border: '1.5px solid rgba(0,0,0,.07)', borderRadius: 22, overflow: 'hidden', background: '#fff' }}>
           <div className="price-row">
@@ -33,33 +33,33 @@ export default function PricingSection() {
                     borderRadius: 980,
                   }}
                 >
-                  Пробный
+                  Тестовый
                 </span>
               </div>
-              <div style={{ fontSize: 13, color: '#5A5A6A', marginTop: 2 }}>Полный доступ, все локации</div>
+              <div style={{ fontSize: 13, color: '#5A5A6A', marginTop: 2 }}>Все страны и функции без ограничений</div>
             </div>
             <div className="price-col">
               <div style={{ fontSize: 26, fontWeight: 800, letterSpacing: -1.5, lineHeight: 1 }}>бесплатно</div>
-              <div style={{ fontSize: 12, color: '#9A9AAA', marginTop: 3 }}>за 1 день</div>
+              <div style={{ fontSize: 12, color: '#9A9AAA', marginTop: 3 }}>на сутки</div>
             </div>
             <a className="price-btn" href={authUrl}>
-              Попробовать
+              Активировать
             </a>
           </div>
 
           <div className="price-row">
             <div style={{ flex: 1 }}>
               <div style={{ fontSize: 17, fontWeight: 800 }}>1 месяц</div>
-              <div style={{ fontSize: 13, color: '#5A5A6A', marginTop: 2 }}>299 ₽ итого</div>
+              <div style={{ fontSize: 13, color: '#5A5A6A', marginTop: 2 }}>189 ₽ итого</div>
             </div>
             <div className="price-col">
               <div style={{ fontSize: 30, fontWeight: 800, letterSpacing: -1.5, lineHeight: 1 }}>
-                299 <Rub>₽</Rub>
+                189 <Rub>₽</Rub>
               </div>
               <div style={{ fontSize: 12, color: '#9A9AAA', marginTop: 3 }}>в месяц</div>
             </div>
             <a className="price-btn" href={authUrl}>
-              Выбрать
+              Оформить
             </a>
           </div>
 
@@ -79,14 +79,14 @@ export default function PricingSection() {
                     borderRadius: 980,
                   }}
                 >
-                  Популярный
+                  Выбор большинства
                 </span>
               </div>
-              <div style={{ fontSize: 13, color: '#5A5A6A', marginTop: 2 }}>749 ₽ итого</div>
+              <div style={{ fontSize: 13, color: '#5A5A6A', marginTop: 2 }}>449 ₽ за весь период</div>
             </div>
             <div className="price-col">
               <div style={{ fontSize: 30, fontWeight: 800, letterSpacing: -1.5, lineHeight: 1, color: '#0A6CFF' }}>
-                249 <Rub color="rgba(10,108,255,.6)">₽</Rub>
+                150 <Rub color="rgba(10,108,255,.6)">₽</Rub>
               </div>
               <div style={{ fontSize: 12, color: '#9A9AAA', marginTop: 3 }}>в месяц</div>
               <span
@@ -101,22 +101,22 @@ export default function PricingSection() {
                   marginTop: 6,
                 }}
               >
-                −17%
+                −21%
               </span>
             </div>
             <a className="price-btn price-btn--hot" href={authUrl}>
-              Выбрать
+              Оформить
             </a>
           </div>
 
           <div className="price-row">
             <div style={{ flex: 1 }}>
               <div style={{ fontSize: 17, fontWeight: 800 }}>1 год</div>
-              <div style={{ fontSize: 13, color: '#5A5A6A', marginTop: 2 }}>2 399 ₽ итого</div>
+              <div style={{ fontSize: 13, color: '#5A5A6A', marginTop: 2 }}>1 299 ₽ за год</div>
             </div>
             <div className="price-col">
               <div style={{ fontSize: 30, fontWeight: 800, letterSpacing: -1.5, lineHeight: 1 }}>
-                199 <Rub>₽</Rub>
+                108 <Rub>₽</Rub>
               </div>
               <div style={{ fontSize: 12, color: '#9A9AAA', marginTop: 3 }}>в месяц</div>
               <span
@@ -131,19 +131,19 @@ export default function PricingSection() {
                   marginTop: 6,
                 }}
               >
-                −33%
+                −43%
               </span>
             </div>
             <a className="price-btn" href={authUrl}>
-              Выбрать
+              Оформить
             </a>
           </div>
         </div>
         <div style={{ display: 'flex', gap: 20, justifyContent: 'center', flexWrap: 'wrap', marginTop: 20 }}>
-          <span style={{ fontSize: 13, color: '#5A5A6A' }}>✓ 5 устройств</span>
-          <span style={{ fontSize: 13, color: '#5A5A6A' }}>✓ 10 локаций</span>
-          <span style={{ fontSize: 13, color: '#5A5A6A' }}>✓ Безлимитный трафик</span>
-          <span style={{ fontSize: 13, color: '#5A5A6A' }}>✓ Поддержка 24/7</span>
+          <span style={{ fontSize: 13, color: '#5A5A6A' }}>✓ До 10 гаджетов</span>
+          <span style={{ fontSize: 13, color: '#5A5A6A' }}>✓ 10 стран</span>
+          <span style={{ fontSize: 13, color: '#5A5A6A' }}>✓ Трафик без лимита</span>
+          <span style={{ fontSize: 13, color: '#5A5A6A' }}>✓ Помощь круглосуточно</span>
         </div>
       </div>
     </section>

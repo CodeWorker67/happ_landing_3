@@ -1,18 +1,18 @@
 const STEPS = [
   {
     n: '1',
-    title: 'Зарегистрируйтесь',
-    text: 'Email, Телефон, Telegram, Google Auth. Простейшая регистрация и вам будет выдан доступ на 1 день бесплатно.',
+    title: 'Создайте профиль',
+    text: 'Войдите через почту, номер, Telegram или Google — пароль можно задать позже. Сразу активируется сутка бесплатно.',
   },
   {
     n: '2',
-    title: 'Скачайте Happ',
-    text: 'App Store, Google Play или установщик для Windows. Приложение бесплатное, подписка добавляется одной кнопкой.',
+    title: 'Установите Happ',
+    text: 'Загрузите из App Store, Google Play или с сайта для Windows. Подписку из кабинета подтянете в один тап.',
   },
   {
     n: '3',
-    title: 'Нажмите Connect',
-    text: 'Выберите ближайший сервер — интернет работает на полной скорости.',
+    title: 'Подключитесь',
+    text: 'Выберите подходящий сервер в списке — и пользуйтесь сетью на полной скорости.',
   },
 ];
 
@@ -22,7 +22,7 @@ export default function StepsSection() {
       <div className="section-inner">
         <p className="kicker">Подключение</p>
         <h2 className="h2" style={{ marginBottom: 48 }}>
-          Три шага. Одна минута.
+          Три этапа. Меньше минуты.
         </h2>
         <div className="three">
           {STEPS.map((step) => (

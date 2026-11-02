@@ -30,19 +30,19 @@ export default function CtaSection() {
             marginBottom: 14,
           }}
         >
-          Один день бесплатно.
+          Сутки бесплатно —
           <br />
-          Прямо сейчас.
+          начните сегодня.
         </h2>
         <p style={{ fontSize: 17, color: 'rgba(255,255,255,.75)', marginBottom: 32 }}>
-          Регистрация за минуту. Аккаунт создаётся автоматически.
+          Пара кликов для регистрации — профиль появится сам.
         </p>
         <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
           <a className="cta-white" href={authUrl}>
-            Попробовать бесплатно
+            Получить пробный доступ
           </a>
           <a className="cta-ghost" href={supportUrl} target="_blank" rel="noopener noreferrer">
-            Написать в поддержку
+            Связаться с поддержкой
           </a>
         </div>
       </div>

@@ -1,9 +1,9 @@
 import { useTrackedLinks } from '@/hooks/useTrackedLinks';
 
 const NAV = [
-  { href: '/#features', label: 'Возможности' },
-  { href: '/#steps', label: 'Подключение' },
   { href: '/#pricing', label: 'Тарифы' },
+  { href: '/#steps', label: 'Подключение' },
+  { href: '/#features', label: 'Возможности' },
   { href: '/#faq', label: 'FAQ' },
 ];
 
@@ -16,7 +16,7 @@ export default function Header() {
         <span className="brand-mark">H</span>
         <span className="brand-text">
           <span className="brand-name">Happ</span>
-          <span className="brand-sub">Быстрый &amp; безопасный</span>
+          <span className="brand-sub">Скорость и надёжность</span>
         </span>
       </a>
       <nav className="nav-links">
@@ -31,7 +31,7 @@ export default function Header() {
           Войти
         </a>
         <a className="nav-cta" href={authUrl}>
-          Попробовать бесплатно
+          Сутки в подарок
         </a>
       </div>
     </header>

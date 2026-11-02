@@ -1,5 +1,5 @@
 import { useTrackedLinks } from '@/hooks/useTrackedLinks';
-import HeroIllustration from './HeroIllustration';
+import HeroPulseDeco from './HeroPulseDeco';
 
 export default function HeroSection() {
   const { authUrl } = useTrackedLinks();
@@ -41,7 +41,7 @@ export default function HeroSection() {
                   animation: 'glowdot 2s ease-in-out infinite',
                 }}
               />
-              Работает в России
+              Доступен по всей России
             </span>
             <span
               style={{
@@ -57,7 +57,7 @@ export default function HeroSection() {
                 color: '#0052CC',
               }}
             >
-              95 000+ пользователей
+              Более 175 000 клиентов
             </span>
           </div>
           <h1
@@ -70,7 +70,7 @@ export default function HeroSection() {
               textWrap: 'balance',
             }}
           >
-            Получите Подписку
+            Оформите подписку
             <br />
             <span
               style={{
@@ -80,7 +80,7 @@ export default function HeroSection() {
                 color: 'transparent',
               }}
             >
-              для Happ
+              на Happ
             </span>
           </h1>
           <p
@@ -93,26 +93,28 @@ export default function HeroSection() {
               textWrap: 'pretty',
             }}
           >
-            Работает на iOS, Android и Windows. Один аккаунт — до 5 устройств.
+            iPhone, Android и Windows — один профиль сразу на десять устройств.
           </p>
 
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12 }}>
             <a className="btn-primary" href={authUrl}>
-              Получить ключ
+              Получить доступ
             </a>
             <a className="btn-outline" href={authUrl}>
-              Попробовать
+              Начать тест
             </a>
           </div>
           <p style={{ marginTop: 22, fontSize: 14, color: '#8A8A99' }}>
-            1 день бесплатно · аккаунт создаётся автоматически ·{' '}
+            Сутка в подарок · профиль создаётся сам ·{' '}
             <a href={authUrl} style={{ fontWeight: 700, color: '#0A6CFF' }}>
-              уже есть аккаунт?
+              уже зарегистрированы?
             </a>
           </p>
         </div>
 
-        <HeroIllustration />
+        <div className="hero-pulse-deco-wrap">
+          <HeroPulseDeco />
+        </div>
       </div>
     </section>
   );

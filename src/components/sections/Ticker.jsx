@@ -1,10 +1,10 @@
 const ITEMS = [
-  { value: '95 000+', label: 'Пользователей' },
-  { value: '10', label: 'Локаций' },
-  { value: '99.9%', label: 'Аптайм' },
-  { value: '10 Гбит', label: 'Канал' },
-  { value: '<50 мс', label: 'Пинг (EU)' },
-  { value: '5', label: 'Устройств' },
+  { value: '175 000+', label: 'Клиентов' },
+  { value: '10', label: 'Стран' },
+  { value: '99.9%', label: 'Uptime' },
+  { value: '10 Гбит', label: 'Пропускная способность' },
+  { value: '<50 мс', label: 'Задержка (EU)' },
+  { value: '10', label: 'Гаджетов на аккаунт' },
 ];
 
 function TickerItem({ value, label }) {
