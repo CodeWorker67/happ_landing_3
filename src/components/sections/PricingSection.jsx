@@ -15,7 +15,7 @@ export default function PricingSection() {
         <div style={{ textAlign: 'center', marginBottom: 44 }}>
           <p className="kicker">Тарифы</p>
           <h2 className="h2">Начните с 9 ₽</h2>
-          <p style={{ fontSize: 16, color: '#5A5A6A', marginTop: 10 }}>3 дня за 9 ₽ · без автоплатежей</p>
+          <p style={{ fontSize: 16, color: '#5A5A6A', marginTop: 10 }}>3 дня за 9 ₽</p>
         </div>
         <div style={{ border: '1.5px solid rgba(0,0,0,.07)', borderRadius: 22, overflow: 'hidden', background: '#fff' }}>
           <div className="price-row">
@@ -37,7 +37,7 @@ export default function PricingSection() {
                 </span>
               </div>
               <div style={{ fontSize: 13, color: '#5A5A6A', marginTop: 2 }}>
-                Полный доступ, все страны · без автоплатежей
+                Полный доступ, все страны
               </div>
             </div>
             <div className="price-col">
