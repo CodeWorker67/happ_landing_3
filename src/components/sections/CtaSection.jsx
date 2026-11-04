@@ -30,16 +30,16 @@ export default function CtaSection() {
             marginBottom: 14,
           }}
         >
-          Сутки бесплатно —
+          Три дня за 9 рублей.
           <br />
-          начните сегодня.
+          Прямо сейчас.
         </h2>
         <p style={{ fontSize: 17, color: 'rgba(255,255,255,.75)', marginBottom: 32 }}>
-          Пара кликов для регистрации — профиль появится сам.
+          Регистрация за минуту. Профиль создаётся автоматически.
         </p>
         <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
           <a className="cta-white" href={authUrl}>
-            Получить пробный доступ
+            Триал 3 дня за 9 руб
           </a>
           <a className="cta-ghost" href={supportUrl} target="_blank" rel="noopener noreferrer">
             Связаться с поддержкой

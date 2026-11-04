@@ -13,17 +13,17 @@ export default function HomePage() {
   return (
     <div style={{ width: '100%', fontFamily: 'Manrope,-apple-system,sans-serif', color: '#0F0F0F' }}>
       <Helmet>
-        <title>Happ — подписка для приложения, сутки бесплатно</title>
+        <title>Happ — подписка для приложения, 3 дня за 9 ₽</title>
         <meta
           name="description"
-          content="Стабильное подключение без лишних настроек — в России и за рубежом. Один день на тест, профиль создаётся автоматически после регистрации."
+          content="Стабильное подключение без лишних настроек — в России и за рубежом. 3 дня за 9 рублей, профиль создаётся автоматически после регистрации."
         />
         <link rel="canonical" href="https://happ-time.global/" />
         <meta property="og:url" content="https://happ-time.global/" />
-        <meta property="og:title" content="Happ — подписка для приложения, сутки бесплатно" />
+        <meta property="og:title" content="Happ — подписка для приложения, 3 дня за 9 ₽" />
         <meta
           property="og:description"
-          content="Стабильное подключение без лишних настроек — в России и за рубежом. Один день на тест, профиль создаётся автоматически после регистрации."
+          content="Стабильное подключение без лишних настроек — в России и за рубежом. 3 дня за 9 рублей, профиль создаётся автоматически после регистрации."
         />
       </Helmet>
       <Header />

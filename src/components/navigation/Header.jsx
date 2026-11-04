@@ -31,7 +31,7 @@ export default function Header() {
           Войти
         </a>
         <a className="nav-cta" href={authUrl}>
-          Сутки в подарок
+          Триал 3 дня за 9 руб
         </a>
       </div>
     </header>

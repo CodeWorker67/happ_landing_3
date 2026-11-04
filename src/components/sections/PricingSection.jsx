@@ -14,14 +14,14 @@ export default function PricingSection() {
       <div style={{ maxWidth: 760, margin: '0 auto' }}>
         <div style={{ textAlign: 'center', marginBottom: 44 }}>
           <p className="kicker">Тарифы</p>
-          <h2 className="h2">Сначала — пробный день</h2>
-          <p style={{ fontSize: 16, color: '#5A5A6A', marginTop: 10 }}>24 часа без оплаты</p>
+          <h2 className="h2">Начните с 9 ₽</h2>
+          <p style={{ fontSize: 16, color: '#5A5A6A', marginTop: 10 }}>3 дня за 9 ₽ · без автоплатежей</p>
         </div>
         <div style={{ border: '1.5px solid rgba(0,0,0,.07)', borderRadius: 22, overflow: 'hidden', background: '#fff' }}>
           <div className="price-row">
             <div style={{ flex: 1 }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-                <span style={{ fontSize: 17, fontWeight: 800 }}>1 день</span>
+                <span style={{ fontSize: 17, fontWeight: 800 }}>3 дня</span>
                 <span
                   style={{
                     background: '#EDF9F1',
@@ -33,17 +33,21 @@ export default function PricingSection() {
                     borderRadius: 980,
                   }}
                 >
-                  Тестовый
+                  Пробный
                 </span>
               </div>
-              <div style={{ fontSize: 13, color: '#5A5A6A', marginTop: 2 }}>Все страны и функции без ограничений</div>
+              <div style={{ fontSize: 13, color: '#5A5A6A', marginTop: 2 }}>
+                Полный доступ, все страны · без автоплатежей
+              </div>
             </div>
             <div className="price-col">
-              <div style={{ fontSize: 26, fontWeight: 800, letterSpacing: -1.5, lineHeight: 1 }}>бесплатно</div>
-              <div style={{ fontSize: 12, color: '#9A9AAA', marginTop: 3 }}>на сутки</div>
+              <div style={{ fontSize: 30, fontWeight: 800, letterSpacing: -1.5, lineHeight: 1 }}>
+                9 <Rub>₽</Rub>
+              </div>
+              <div style={{ fontSize: 12, color: '#9A9AAA', marginTop: 3 }}>за 3 дня</div>
             </div>
             <a className="price-btn" href={authUrl}>
-              Активировать
+              Триал 3 дня за 9 руб
             </a>
           </div>
 
