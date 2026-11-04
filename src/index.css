@@ -378,7 +378,9 @@ button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: auto;
+  box-sizing: border-box;
+  width: 130px;
+  flex-shrink: 0;
   padding: 11px 24px;
   border-radius: 12px;
   font-size: 14px;
