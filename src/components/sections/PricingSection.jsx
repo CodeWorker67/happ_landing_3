@@ -47,7 +47,7 @@ export default function PricingSection() {
               <div style={{ fontSize: 12, color: '#9A9AAA', marginTop: 3 }}>за 3 дня</div>
             </div>
             <a className="price-btn" href={authUrl}>
-              Триал 3 дня за 9 руб
+              Триал
             </a>
           </div>
 
